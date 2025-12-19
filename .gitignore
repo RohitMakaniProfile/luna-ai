@@ -1,0 +1,25 @@
+# --- System & IDE Files ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Python / Backend ---
+venv/
+__pycache__/
+*.pyc
+backend/uploads/
+*.log
+
+# --- Node / Frontend ---
+node_modules/
+frontend/.vite/
+frontend/dist/
+frontend/build/
+npm-debug.log
+
+# --- SECURITY (Sabse Important) ---
+.env
+.env.local
+.env.production
+backend/.env
+frontend/.env
