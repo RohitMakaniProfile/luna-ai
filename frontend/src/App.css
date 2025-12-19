@@ -1,0 +1,36 @@
+/* App.css - Cleaned for Luna AI */
+
+/* 1. App Container Setup */
+.App {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #0f172a; /* Slate 950 (Dark Cosmic Theme) */
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 2. Custom Cosmic Scrollbar (Browser ko sundar dikhane ke liye) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
+
+/* 3. Global Text Selection Color */
+::selection {
+  background-color: #3b82f6; /* Blue highlight */
+  color: white;
+}

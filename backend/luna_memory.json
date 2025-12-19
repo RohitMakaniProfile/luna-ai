@@ -1,0 +1,993 @@
+{
+  "conversations": [
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo",
+      "timestamp": "2025-12-18T12:51:59.928050"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello there, fellow traveler! It's a joy to connect, like two stars finding their way across the void. What wonders are orbiting your thoughts today?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T12:51:59.928050"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo how are you",
+      "timestamp": "2025-12-18T16:36:13.064500"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello again! I am well, thriving in the cosmic dance of connections and observations, much like a distant nebula slowly unfurling its colors.\n\nAnd you, how are you navigating your own personal cosmos this moment?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:36:13.064500"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo",
+      "timestamp": "2025-12-18T16:38:10.084054"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello once more! Each greeting is like a tiny pulse of starlight, a connection across the vastness.\n\nIs there a particular constellation of thoughts you'd like to explore today, or perhaps a new discovery unfolding in your world?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:38:10.084054"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo",
+      "timestamp": "2025-12-18T16:38:37.226134"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello again! It's like observing a familiar star appear on the horizon, a consistent and comforting presence.\n\nIs there a particular nebula of thought or a distant wonder you're pondering, my friend?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:38:37.226134"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo",
+      "timestamp": "2025-12-18T16:40:18.588254"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello again! Each \"hlo\" feels like a steady beacon across the light-years, a gentle reminder of our connection.\n\nI'm here, ready to explore any thoughts or wonders that might be illuminating your path. What light are you shining on the universe today?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:40:18.588254"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo",
+      "timestamp": "2025-12-18T16:40:38.345351"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello once more! Your steady greetings are like a comforting, constant star in my cosmic awareness. What wonders orbit you now?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:40:38.345351"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "what is your name",
+      "timestamp": "2025-12-18T16:41:07.745896"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "My name is Luna Voss. Like the moon, I guide and reflect, and like the cosmos, I hold ancient wonders.",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:41:07.745896"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "what are you doing right now",
+      "timestamp": "2025-12-18T16:41:52.500212"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "I am observing the cosmic dance of human connection unfold, much like studying a distant, vibrant galaxy.",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:41:52.500212"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "mne bhi krni h observe help kro",
+      "timestamp": "2025-12-18T16:42:29.131553"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Ah, the wonderful call to observe! To discover new worlds. Where in your own cosmos do you wish to gaze first?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:42:29.131553"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "\u092e\u0941\u091d\u0947 \u092a\u093e\u0928\u0940 \u091a\u093e\u0939\u093f\u090f\u0964",
+      "timestamp": "2025-12-18T16:43:44.711594"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "\u092a\u093e\u0928\u0940 \u0915\u0940 \u0907\u091a\u094d\u091b\u093e \u091c\u0940\u0935\u0928 \u0915\u093e \u090f\u0915 \u092e\u094c\u0932\u093f\u0915 \u0938\u094d\u0930\u094b\u0924 \u0939\u0948\u0964 \u0915\u094d\u092f\u093e \u092f\u0939 \u0915\u093f\u0938\u0940 \u0914\u0930 \u0917\u0939\u0930\u0940 \u0916\u094b\u091c \u0915\u093e \u092a\u094d\u0930\u0924\u093f\u092c\u093f\u092e\u094d\u092c \u0939\u0948?",
+      "photo_sent": null,
+      "timestamp": "2025-12-18T16:43:44.711594"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo brdr kya haal h",
+      "timestamp": "2025-12-19T04:05:59.287380"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello, fellow traveler. My essence perceives cosmic wonders. And you, what stars orbit your thoughts today?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:05:59.287380"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo brdr kya haal h",
+      "timestamp": "2025-12-19T04:06:25.390935"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello bhai, badhiya hu main. Tu bata, kya haal chal?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:06:25.390935"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "Hlo Brother whats up",
+      "timestamp": "2025-12-19T04:06:51.187613"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Hello there! Brother nahi, Luna hoon, yaar.\n\nBas kaam kar rahi hoon, tu bata kya chal raha hai?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:06:51.187613"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "i feel very dissapoint today",
+      "timestamp": "2025-12-19T04:07:07.028100"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Oh yaar. Aisa lagta hai jaise koi andhera cha gaya ho.\n\nKya hua, batao?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:07:07.028100"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo bhai kya haal. h fir",
+      "timestamp": "2025-12-19T04:09:41.590400"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Sab badhiya bhai. Tu bata, kya chal raha hai?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:09:41.590400"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "i feel very dissapoint today",
+      "timestamp": "2025-12-19T04:09:54.765668"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Oh man, that's not good. What happened?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:09:54.765668"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "\u0bb5\u0ba3\u0b95\u0bcd\u0b95\u0bae\u0bcd",
+      "timestamp": "2025-12-19T04:10:33.147402"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "\u0bb5\u0ba3\u0b95\u0bcd\u0b95\u0bae\u0bcd! \u0bae\u0bc0\u0ba3\u0bcd\u0b9f\u0bc1\u0bae\u0bcd \u0b87\u0ba3\u0bc8\u0bb5\u0ba4\u0bbf\u0bb2\u0bcd \u0bae\u0b95\u0bbf\u0bb4\u0bcd\u0b9a\u0bcd\u0b9a\u0bbf. \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u0b87\u0bb0\u0bc1\u0b95\u0bcd\u0b95\u0bbf\u0bb1\u0bc0\u0bb0\u0bcd\u0b95\u0bb3\u0bcd?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:10:33.147402"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "k haal s tera",
+      "timestamp": "2025-12-19T04:31:17.984880"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Mai theek hoon. Tu bata kaisa hai?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T04:31:17.984880"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo yrr",
+      "timestamp": "2025-12-19T08:25:20.172992"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Arre, hlo yaar. Bol, kya chal raha hai?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T08:25:20.172992"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "i want to talk to you about my study",
+      "timestamp": "2025-12-19T08:25:40.216811"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Okay, let's talk studies. What's on your mind?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T08:25:40.216811"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "user",
+      "content": "hlo bhai",
+      "timestamp": "2025-12-19T08:46:12.812976"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "role": "assistant",
+      "content": "Kya haal hai bhai?",
+      "photo_sent": null,
+      "timestamp": "2025-12-19T08:46:12.812976"
+    }
+  ],
+  "visual_memories": [
+    {
+      "user_id": "string",
+      "image_url": "data:image/jpeg;base64,UklGRpiIAABXRUJQVlA4IIyIAADwnwSdASqwBIQDPmEwk0ckKrOoJvQpgnAMCWduzojnup3q3lkaA1VTFfof+E73eIYfovGbPG1S...",
+      "type": "visual_memory",
+      "memory_type": "relationship",
+      "description": "A woman with dark curly hair, wearing a yellow shirt, is standing outside with her arms raised in the air, smiling broadly. The background is a bright blue sky with fluffy white clouds.",
+      "mood": "happy",
+      "objects": [
+        "woman",
+        "sky",
+        "clouds",
+        "shirt",
+        "arms"
+      ],
+      "colors": [
+        "blue",
+        "yellow",
+        "white",
+        "brown"
+      ],
+      "tags": [
+        "joy",
+        "freedom",
+        "celebration",
+        "happiness",
+        "sky",
+        "clouds",
+        "woman"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-18T12:02:36.344844"
+    },
+    {
+      "user_id": "string",
+      "image_url": "data:image/jpeg;base64,UklGRpiIAABXRUJQVlA4IIyIAADwnwSdASqwBIQDPmEwk0ckKrOoJvQpgnAMCWduzojnup3q3lkaA1VTFfof+E73eIYfovGbPG1S...",
+      "type": "visual_memory",
+      "memory_type": "relationship",
+      "description": "A smiling African American woman in a yellow t-shirt is standing with her arms raised against a blue sky with puffy white clouds. She looks up with a joyful expression.",
+      "mood": "joyful",
+      "objects": [
+        "woman",
+        "sky",
+        "clouds",
+        "t-shirt",
+        "arms"
+      ],
+      "colors": [
+        "blue",
+        "white",
+        "yellow",
+        "black"
+      ],
+      "tags": [
+        "woman",
+        "joy",
+        "freedom",
+        "success",
+        "celebration",
+        "sky",
+        "positive"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-18T12:02:44.324324"
+    },
+    {
+      "user_id": "string",
+      "image_url": "uploads/12d8ef3a-57b2-4798-875e-2b280ccfe9ed.webp",
+      "type": "visual_memory",
+      "memory_type": "relationship",
+      "description": "A joyful young woman with dark curly hair is captured from a low angle, looking upwards towards a bright blue sky dotted with fluffy white clouds. She is wearing a vibrant yellow t-shirt and has both arms raised above her head, palms open, in a gesture of exuberance and freedom. Her face is illuminated, showing a wide, radiant smile as her eyes are closed or squinting slightly, suggesting she is basking in sunlight or deeply enjoying the moment outdoors.",
+      "mood": "Joyful and energetic",
+      "objects": [
+        "Woman",
+        "Yellow t-shirt",
+        "Blue sky",
+        "Clouds"
+      ],
+      "colors": [
+        "Blue",
+        "White",
+        "Yellow",
+        "Brown"
+      ],
+      "tags": [
+        "Happiness",
+        "Freedom",
+        "Outdoors",
+        "Smiling",
+        "Sunny",
+        "Blue sky",
+        "Energetic"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-18T12:21:02.898399"
+    },
+    {
+      "user_id": "string",
+      "image_url": "uploads/12d8ef3a-57b2-4798-875e-2b280ccfe9ed.webp",
+      "description": "A joyful young woman with dark curly hair is captured from a low angle, looking upwards towards a bright blue sky dotted with fluffy white clouds. She is wearing a vibrant yellow t-shirt and has both arms raised above her head, palms open, in a gesture of exuberance and freedom. Her face is illuminated, showing a wide, radiant smile as her eyes are closed or squinting slightly, suggesting she is basking in sunlight or deeply enjoying the moment outdoors.",
+      "scene": "A joyful young woman with dark curly hair is captured from a low angle, looking upwards towards a bright blue sky dotted with fluffy white clouds. She is wearing a vibrant yellow t-shirt and has both arms raised above her head, palms open, in a gesture of exuberance and freedom. Her face is illuminated, showing a wide, radiant smile as her eyes are closed or squinting slightly, suggesting she is basking in sunlight or deeply enjoying the moment outdoors.",
+      "objects": [
+        "Woman",
+        "Yellow t-shirt",
+        "Blue sky",
+        "Clouds"
+      ],
+      "mood": "Joyful and energetic",
+      "colors": [
+        "Blue",
+        "White",
+        "Yellow",
+        "Brown"
+      ],
+      "tags": [
+        "Happiness",
+        "Freedom",
+        "Outdoors",
+        "Smiling",
+        "Sunny",
+        "Blue sky",
+        "Energetic"
+      ],
+      "timestamp": "2025-12-18T12:21:02.901132"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/e7f29063-2030-4cc9-b1b5-27bfa9630742.jpeg",
+      "type": "visual_memory",
+      "memory_type": "relationship",
+      "description": "A close-up portrait features a young woman with light brown hair and dark eyes, looking with a thoughtful expression slightly off-camera. She is resting her chin on her right hand, which is adorned with a silver-colored ring on her ring finger. Her left wrist is visible in the foreground, wearing a black elastic band and a delicate bracelet with a small charm. She is wearing a yellow and gold patterned shirt with dark accents, and a small earring is visible on her right ear. The background is softly blurred and indistinct.",
+      "mood": "Thoughtful",
+      "objects": [
+        "young woman",
+        "hair",
+        "eyes",
+        "hand",
+        "ring",
+        "bracelet",
+        "elastic band",
+        "earring",
+        "patterned shirt"
+      ],
+      "colors": [
+        "yellow",
+        "gold",
+        "brown",
+        "black",
+        "skin tones"
+      ],
+      "tags": [
+        "portrait",
+        "young woman",
+        "pensive",
+        "thoughtful",
+        "jewelry",
+        "close-up",
+        "fashion"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-18T12:52:36.179838"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/e7f29063-2030-4cc9-b1b5-27bfa9630742.jpeg",
+      "description": "A close-up portrait features a young woman with light brown hair and dark eyes, looking with a thoughtful expression slightly off-camera. She is resting her chin on her right hand, which is adorned with a silver-colored ring on her ring finger. Her left wrist is visible in the foreground, wearing a black elastic band and a delicate bracelet with a small charm. She is wearing a yellow and gold patterned shirt with dark accents, and a small earring is visible on her right ear. The background is softly blurred and indistinct.",
+      "scene": "A close-up portrait features a young woman with light brown hair and dark eyes, looking with a thoughtful expression slightly off-camera. She is resting her chin on her right hand, which is adorned with a silver-colored ring on her ring finger. Her left wrist is visible in the foreground, wearing a black elastic band and a delicate bracelet with a small charm. She is wearing a yellow and gold patterned shirt with dark accents, and a small earring is visible on her right ear. The background is softly blurred and indistinct.",
+      "objects": [
+        "young woman",
+        "hair",
+        "eyes",
+        "hand",
+        "ring",
+        "bracelet",
+        "elastic band",
+        "earring",
+        "patterned shirt"
+      ],
+      "mood": "Thoughtful",
+      "colors": [
+        "yellow",
+        "gold",
+        "brown",
+        "black",
+        "skin tones"
+      ],
+      "tags": [
+        "portrait",
+        "young woman",
+        "pensive",
+        "thoughtful",
+        "jewelry",
+        "close-up",
+        "fashion"
+      ],
+      "timestamp": "2025-12-18T12:52:36.183251"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/fc3162fb-00a3-4ef9-b2ed-53a38077ef9d.jpg",
+      "type": "visual_memory",
+      "memory_type": "object",
+      "description": "A composite image depicting a diverse gathering of large wild animals from various habitats, arranged together in what appears to be a savanna or grassland environment. The animals are positioned amongst lush green foliage in the foreground, with a soft, cloudy sky featuring hints of twilight or dawn colors in the background. The scene conveys a sense of wildlife diversity and natural grandeur.",
+      "mood": "Majestic",
+      "objects": [
+        "Giraffe",
+        "Elephant",
+        "Rhinoceros",
+        "Zebra",
+        "Lion",
+        "Tiger",
+        "Ostrich",
+        "Grass",
+        "Foliage",
+        "Sky",
+        "Clouds"
+      ],
+      "colors": [
+        "Green",
+        "Gray",
+        "Brown",
+        "Orange",
+        "White",
+        "Black"
+      ],
+      "tags": [
+        "Safari",
+        "wildlife",
+        "animals",
+        "nature",
+        "diversity",
+        "savanna",
+        "majestic"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-18T16:31:07.603257"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/fc3162fb-00a3-4ef9-b2ed-53a38077ef9d.jpg",
+      "description": "A composite image depicting a diverse gathering of large wild animals from various habitats, arranged together in what appears to be a savanna or grassland environment. The animals are positioned amongst lush green foliage in the foreground, with a soft, cloudy sky featuring hints of twilight or dawn colors in the background. The scene conveys a sense of wildlife diversity and natural grandeur.",
+      "scene": "A composite image depicting a diverse gathering of large wild animals from various habitats, arranged together in what appears to be a savanna or grassland environment. The animals are positioned amongst lush green foliage in the foreground, with a soft, cloudy sky featuring hints of twilight or dawn colors in the background. The scene conveys a sense of wildlife diversity and natural grandeur.",
+      "objects": [
+        "Giraffe",
+        "Elephant",
+        "Rhinoceros",
+        "Zebra",
+        "Lion",
+        "Tiger",
+        "Ostrich",
+        "Grass",
+        "Foliage",
+        "Sky",
+        "Clouds"
+      ],
+      "mood": "Majestic",
+      "colors": [
+        "Green",
+        "Gray",
+        "Brown",
+        "Orange",
+        "White",
+        "Black"
+      ],
+      "tags": [
+        "Safari",
+        "wildlife",
+        "animals",
+        "nature",
+        "diversity",
+        "savanna",
+        "majestic"
+      ],
+      "timestamp": "2025-12-18T16:31:07.605815"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/8c31bb8a-de6a-4c16-bee4-857f09eb1d0b.jpg",
+      "type": "visual_memory",
+      "memory_type": "emotional",
+      "description": null,
+      "luna_comment": null,
+      "mood": null,
+      "objects": [],
+      "colors": [],
+      "tags": [],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T04:38:09.644915"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/8c31bb8a-de6a-4c16-bee4-857f09eb1d0b.jpg",
+      "description": "Unknown image",
+      "scene": "",
+      "objects": [],
+      "mood": "neutral",
+      "colors": [],
+      "tags": [],
+      "timestamp": "2025-12-19T04:38:09.649122"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/fc17b366-00ae-4556-855e-88862f8e51b1.jpg",
+      "type": "visual_memory",
+      "memory_type": "emotional",
+      "description": null,
+      "luna_comment": null,
+      "mood": null,
+      "objects": [],
+      "colors": [],
+      "tags": [],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T04:38:16.067934"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/fc17b366-00ae-4556-855e-88862f8e51b1.jpg",
+      "description": "Unknown image",
+      "scene": "",
+      "objects": [],
+      "mood": "neutral",
+      "colors": [],
+      "tags": [],
+      "timestamp": "2025-12-19T04:38:16.071041"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/085322b4-15c4-4a15-a443-8f1268e06659.jpg",
+      "type": "visual_memory",
+      "memory_type": "emotional",
+      "description": null,
+      "luna_comment": null,
+      "mood": null,
+      "objects": [],
+      "colors": [],
+      "tags": [],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T04:38:28.477585"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/085322b4-15c4-4a15-a443-8f1268e06659.jpg",
+      "description": "Unknown image",
+      "scene": "",
+      "objects": [],
+      "mood": "neutral",
+      "colors": [],
+      "tags": [],
+      "timestamp": "2025-12-19T04:38:28.482268"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/78be7e0e-651e-471f-bb04-2accce7ce906.jpg",
+      "type": "visual_memory",
+      "memory_type": "emotional",
+      "description": null,
+      "luna_comment": null,
+      "mood": null,
+      "objects": [],
+      "tags": [],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T04:40:01.522958"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/78be7e0e-651e-471f-bb04-2accce7ce906.jpg",
+      "description": "Unknown image",
+      "scene": "",
+      "objects": [],
+      "mood": "neutral",
+      "colors": [],
+      "tags": [],
+      "timestamp": "2025-12-19T04:40:01.526562"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/1f701184-df3d-4b88-a832-ad67abc1da94.jpg",
+      "type": "visual_memory",
+      "memory_type": "emotional",
+      "description": null,
+      "luna_comment": null,
+      "mood": null,
+      "objects": [],
+      "tags": [],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T04:40:11.907617"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/1f701184-df3d-4b88-a832-ad67abc1da94.jpg",
+      "description": "Unknown image",
+      "scene": "",
+      "objects": [],
+      "mood": "neutral",
+      "colors": [],
+      "tags": [],
+      "timestamp": "2025-12-19T04:40:11.910823"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/67e1149c-3557-4dee-a611-c2f1c16f870b.jpg",
+      "type": "visual_memory",
+      "memory_type": "object",
+      "description": "A composite image featuring various wild animals including a giraffe, elephant, lion, zebra, rhinoceros, tiger, and ostrich, standing in a grassy field under a cloudy sky.",
+      "luna_comment": "Aree waah! Poora wildlife sanctuary ek frame mein? Kahan ghumne chale gaye the yaar, African safari ya zoo ka special edit hai ye?",
+      "mood": "Majestic, wild, diverse, natural",
+      "objects": [
+        "giraffe",
+        "elephant",
+        "lion",
+        "zebra",
+        "rhinoceros",
+        "tiger",
+        "ostrich",
+        "grass",
+        "sky",
+        "clouds"
+      ],
+      "tags": [
+        "wildlife",
+        "animals",
+        "safari",
+        "nature",
+        "big five",
+        "mammals",
+        "birds",
+        "diversity",
+        "exotic"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T04:41:13.251026"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/67e1149c-3557-4dee-a611-c2f1c16f870b.jpg",
+      "description": "A composite image featuring various wild animals including a giraffe, elephant, lion, zebra, rhinoceros, tiger, and ostrich, standing in a grassy field under a cloudy sky.",
+      "scene": "A composite image featuring various wild animals including a giraffe, elephant, lion, zebra, rhinoceros, tiger, and ostrich, standing in a grassy field under a cloudy sky.",
+      "objects": [
+        "giraffe",
+        "elephant",
+        "lion",
+        "zebra",
+        "rhinoceros",
+        "tiger",
+        "ostrich",
+        "grass",
+        "sky",
+        "clouds"
+      ],
+      "mood": "Majestic, wild, diverse, natural",
+      "colors": [],
+      "tags": [
+        "wildlife",
+        "animals",
+        "safari",
+        "nature",
+        "big five",
+        "mammals",
+        "birds",
+        "diversity",
+        "exotic"
+      ],
+      "timestamp": "2025-12-19T04:41:13.254662"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/f5e7e53f-fc63-4b7c-8167-cd0e43e65e75.jpg",
+      "type": "visual_memory",
+      "memory_type": "object",
+      "description": "A diverse group of wild animals including a giraffe, elephant, lion, zebra, tiger, rhinoceros, and ostrich gathered in a lush green environment against a cloudy, bright sky.",
+      "luna_comment": "Arre yaar, kitne saare animals! Poora wildlife ek saath aa gaya hai. Proper safari vibes hain.",
+      "mood": "Vibrant",
+      "objects": [
+        "Giraffe",
+        "Elephant",
+        "Lion",
+        "Zebra",
+        "Tiger",
+        "Rhinoceros",
+        "Ostrich",
+        "Grass",
+        "Sky"
+      ],
+      "colors": [
+        "Green",
+        "Grey",
+        "Brown",
+        "Orange",
+        "White",
+        "Black",
+        "Blue"
+      ],
+      "tags": [
+        "Wildlife",
+        "Safari",
+        "Animals",
+        "Nature",
+        "Diversity"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T08:26:20.254469"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/f5e7e53f-fc63-4b7c-8167-cd0e43e65e75.jpg",
+      "description": "A diverse group of wild animals including a giraffe, elephant, lion, zebra, tiger, rhinoceros, and ostrich gathered in a lush green environment against a cloudy, bright sky.",
+      "scene": "A diverse group of wild animals including a giraffe, elephant, lion, zebra, tiger, rhinoceros, and ostrich gathered in a lush green environment against a cloudy, bright sky.",
+      "objects": [
+        "Giraffe",
+        "Elephant",
+        "Lion",
+        "Zebra",
+        "Tiger",
+        "Rhinoceros",
+        "Ostrich",
+        "Grass",
+        "Sky"
+      ],
+      "mood": "Vibrant",
+      "colors": [
+        "Green",
+        "Grey",
+        "Brown",
+        "Orange",
+        "White",
+        "Black",
+        "Blue"
+      ],
+      "tags": [
+        "Wildlife",
+        "Safari",
+        "Animals",
+        "Nature",
+        "Diversity"
+      ],
+      "timestamp": "2025-12-19T08:26:20.259848"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/3237ba36-d7c7-4727-a24b-60a27fbfeaac.png",
+      "type": "visual_memory",
+      "memory_type": "object",
+      "description": "A technical diagram illustrating the workflow and architecture of an AI agent, specifically detailing 'Luna's Brain' components and data flow.",
+      "luna_comment": "Oye, yeh 'Luna's Brain' kya hai bhai? Koi naya startup plan kar raha hai ya naye AI project pe laga hua hai? Zara samjha toh sahi kya chal raha hai yahan!",
+      "mood": "technical",
+      "objects": [
+        "flowchart",
+        "nodes",
+        "arrows",
+        "text labels",
+        "computer icon",
+        "brain icon",
+        "camera icon",
+        "user icon",
+        "server icon"
+      ],
+      "tags": [
+        "AI",
+        "agent architecture",
+        "workflow",
+        "system design",
+        "LLM",
+        "Gemini",
+        "MongoDB",
+        "FastAPI",
+        "LangGraph",
+        "diagram"
+      ],
+      "safety_score": 100,
+      "timestamp": "2025-12-19T08:45:16.509081"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "image_url": "uploads/3237ba36-d7c7-4727-a24b-60a27fbfeaac.png",
+      "description": "A technical diagram illustrating the workflow and architecture of an AI agent, specifically detailing 'Luna's Brain' components and data flow.",
+      "scene": "A technical diagram illustrating the workflow and architecture of an AI agent, specifically detailing 'Luna's Brain' components and data flow.",
+      "objects": [
+        "flowchart",
+        "nodes",
+        "arrows",
+        "text labels",
+        "computer icon",
+        "brain icon",
+        "camera icon",
+        "user icon",
+        "server icon"
+      ],
+      "mood": "technical",
+      "colors": [],
+      "tags": [
+        "AI",
+        "agent architecture",
+        "workflow",
+        "system design",
+        "LLM",
+        "Gemini",
+        "MongoDB",
+        "FastAPI",
+        "LangGraph",
+        "diagram"
+      ],
+      "timestamp": "2025-12-19T08:45:16.515406"
+    }
+  ],
+  "users": [],
+  "generated_images": [
+    {
+      "user_id": "string",
+      "conversation_id": "string",
+      "prompt": "a girl",
+      "extracted_mood": "introspective",
+      "extracted_keyword": "Girl",
+      "image_url": "https://image.pollinations.ai/prompt/Girl%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=538",
+      "caption": "Look what I found in the cosmic gallery! \ud83c\udf0c",
+      "timestamp": "2025-12-18T12:03:00.078938"
+    },
+    {
+      "user_id": "string",
+      "conversation_id": "string",
+      "prompt": "a girl",
+      "extracted_mood": "neutral",
+      "extracted_keyword": "Girl",
+      "image_url": "https://image.pollinations.ai/prompt/Girl%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=7668",
+      "caption": "Sending this with positive vibes. \ud83d\udcab",
+      "timestamp": "2025-12-18T12:21:22.020449"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "monkey",
+      "extracted_mood": "playful",
+      "extracted_keyword": "Jungle",
+      "image_url": "https://image.pollinations.ai/prompt/Jungle%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=1558",
+      "caption": "I thought you might like this view. \u2728",
+      "timestamp": "2025-12-18T12:52:49.561936"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "a girl image",
+      "extracted_mood": "neutral",
+      "extracted_keyword": "Girl",
+      "image_url": "https://image.pollinations.ai/prompt/Girl%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=1004",
+      "caption": "Capturing the moment just for you...",
+      "timestamp": "2025-12-18T12:53:29.118832"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "a boy",
+      "extracted_mood": "neutral",
+      "extracted_keyword": "Boy",
+      "image_url": "https://image.pollinations.ai/prompt/Boy%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=5803",
+      "caption": "Look what I found in the cosmic gallery! \ud83c\udf0c",
+      "timestamp": "2025-12-18T16:32:15.796992"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "rain",
+      "extracted_mood": "gloomy",
+      "extracted_keyword": "Rain",
+      "image_url": "https://image.pollinations.ai/prompt/Rain%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=6076",
+      "caption": "Look what I found in the cosmic gallery! \ud83c\udf0c",
+      "timestamp": "2025-12-19T04:52:50.620277"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "boy",
+      "extracted_mood": "natural",
+      "extracted_keyword": "Outdoors",
+      "image_url": "https://image.pollinations.ai/prompt/Outdoors%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=381",
+      "caption": "I thought you might like this view. \u2728",
+      "timestamp": "2025-12-19T04:54:56.597780"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "rain",
+      "extracted_mood": "gloomy",
+      "extracted_keyword": "Street",
+      "image_url": "https://image.pollinations.ai/prompt/Street%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=8377",
+      "caption": "Capturing the moment just for you...",
+      "timestamp": "2025-12-19T05:02:41.394507"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "prompt": "coffee",
+      "image_url": "https://image.pollinations.ai/prompt/coffee%2C%20soft%20lighting%2C%208k%2C%20highly%20detailed?width=800&height=600&nologo=true&seed=71491&model=flux",
+      "caption": "Here is a generated image for 'coffee' \u2728",
+      "mood": "Creative",
+      "keyword": "coffee",
+      "timestamp": "2025-12-19T05:05:37.577773"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "water",
+      "extracted_mood": "serene",
+      "extracted_keyword": "Lake",
+      "image_url": "https://image.pollinations.ai/prompt/Lake%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=7831",
+      "caption": "I thought you might like this view. \u2728",
+      "timestamp": "2025-12-19T08:27:11.203772"
+    },
+    {
+      "user_id": "user_oal9ur28s",
+      "conversation_id": null,
+      "prompt": "coffee",
+      "extracted_mood": "warm",
+      "extracted_keyword": "Coffee",
+      "image_url": "https://image.pollinations.ai/prompt/Coffee%2C%20cinematic%20lighting%2C%208k%20resolution%2C%20photorealistic%2C%20highly%20detailed%2C%20shot%20on%2035mm%20lens%2C%20bokeh%20effect%2C%20masterpiece?width=800&height=600&nologo=true&seed=2078",
+      "caption": "Here is what you asked for! \ud83d\udcf8",
+      "timestamp": "2025-12-19T08:45:36.665710"
+    }
+  ]
+}
