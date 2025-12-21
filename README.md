@@ -10,7 +10,7 @@ Luna AI: Cosmic Companion
 
 *   **Deployment URL:** [http://34.180.25.231/](http://34.180.25.231/)
     
-*   **Status:** ✅ Fully Operational
+*   **Status:**  Fully Operational
     
 *   **Host:** Google Cloud Platform (GCP) Compute Engine
     
@@ -18,16 +18,23 @@ Luna AI: Cosmic Companion
 🛠 Tech Stack
 -------------
 
-**ComponentTechnologyDescriptionFrontendReact.js**Modern, responsive dark-themed UI**BackendFastAPI (Python)**High-speed asynchronous API management**AI EngineDeep Learning / LLM**Advanced NLP processing and context management**Web ServerNginx**Reverse proxy for efficient traffic routing**InfrastructureGCP**Scalable cloud VM running Ubuntu 25.10
+Component,Technology,Description
+Frontend,React.js,"Modern, responsive dark-themed UI"
+Backend,FastAPI (Python),High-speed asynchronous API management
+AI Engine,Deep Learning / LLM,Advanced NLP processing and context management
+Web Server,Nginx,Reverse proxy for efficient traffic routing
+Infrastructure,GCP,Scalable cloud VM running Ubuntu 25.10
 
 🏗 System Architecture
 ----------------------
 
 The project follows a **Three-Tier Architecture** to ensure security, speed, and 99.9% uptime.
 
-Code snippet
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   graph LR      User((User)) -->|HTTP Port 80| Nginx[Nginx Reverse Proxy]      Nginx -->|Serves Static Files| React[React.js Frontend]      Nginx -->|Proxies /api| FastAPI[FastAPI Backend :8000]      FastAPI -->|Processes| AI[AI & Logic Engine]   `
+graph LR
+    User((User)) -->|HTTP Port 80| Nginx[Nginx Reverse Proxy]
+    Nginx -->|Serves Static Files| React[React.js Frontend]
+    Nginx -->|Proxies /api| FastAPI[FastAPI Backend :8000]
+    FastAPI -->|Processes| AI[AI & Logic Engine]
 
 ### **Core Components:**
 
@@ -41,9 +48,14 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 Unlike basic bots, Luna AI uses a **Contextual Pipeline** to remember previous interactions within a session.
 
-Code snippet
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   graph TD      A[User Input] --> B{Context Manager}      B --> C[System Prompt Injection]      B --> D[Chat History Retrieval]      C & D --> E[LLM Inference Engine]      E --> F[Response Generation]      F --> G[Frontend Display]   `
+graph TD
+    A[User Input] --> B{Context Manager}
+    B --> C[System Prompt Injection]
+    B --> D[Chat History Retrieval]
+    C & D --> E[LLM Inference Engine]
+    E --> F[Response Generation]
+    F --> G[Frontend Display]
+    `
 
 ⏳ Development Timeline & "Honest Worker" Milestones
 ---------------------------------------------------
@@ -76,19 +88,23 @@ I delivered this project within a strict **60-hour window**, prioritizing infras
 
 ### **1\. Backend**
 
-Bash
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd backend  python -m venv venv  source venv/bin/activate  pip install -r requirements.txt  python main.py   `
+cd backend
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+python main.py   `
 
 ### **2\. Frontend**
 
 Bash
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   cd frontend  npm install  npm start   `
+cd frontend
+npm install
+npm start `
 
 🤝 Contact & Contribution
 -------------------------
 
-**Developed by:** Rohit (Surendra Kumar)
+**Developed by:** Rohit 
 
 **Vision:** Building intelligent systems that are accessible, fast, and secure.
