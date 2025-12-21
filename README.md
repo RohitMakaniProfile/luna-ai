@@ -43,7 +43,7 @@ graph LR
 ----------------
 
 Unlike basic bots, Luna AI uses a **Contextual Pipeline** to remember previous interactions within a session.
-
+```
 graph TD
     A[User Input] --> B{Context Manager}
     B --> C[System Prompt Injection]
@@ -51,7 +51,7 @@ graph TD
     C & D --> E[LLM Inference Engine]
     E --> F[Response Generation]
     F --> G[Frontend Display]
-    `
+```
 
 ⏳ Development Timeline & "Honest Worker" Milestones
 ---------------------------------------------------
