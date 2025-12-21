@@ -39,11 +39,11 @@ graph LR
     Nginx -->|Proxies /api| FastAPI[FastAPI Backend :8000]
     FastAPI -->|Inference| AI[AI Logic Engine]
 ```
-🧠 AI Logic Flow
-----------------
+## 🧠 AI Logic Flow
 
-Unlike basic bots, Luna AI uses a **Contextual Pipeline** to remember previous interactions within a session.
-```
+Unlike basic bots, **Luna AI** uses a **Contextual Pipeline** to remember previous interactions within a session, enabling coherent and context-aware conversations.
+
+```mermaid
 graph TD
     A[User Input] --> B{Context Manager}
     B --> C[System Prompt Injection]
