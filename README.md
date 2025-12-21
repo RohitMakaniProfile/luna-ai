@@ -79,24 +79,26 @@ I delivered this project within a strict **60-hour window**, prioritizing infras
 3.  **Process Persistence:** Used nohup and virtual environments to ensure the Python backend survives terminal disconnects, providing 24/7 service.
     
 
-📦 How to Run Locally
----------------------
+## 📦 How to Run Locally
 
-### **1\. Backend**
+### 🔹 Backend Setup
 
+```bash
 cd backend
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python main.py   `
+python main.py
+```
 
 ### **2\. Frontend**
 
-Bash
+``` bash
 
 cd frontend
 npm install
-npm start `
+npm start
+```
 
 🤝 Contact & Contribution
 -------------------------
