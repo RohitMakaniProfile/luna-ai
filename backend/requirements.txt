@@ -6,15 +6,10 @@ pydantic
 pydantic-core
 python-multipart
 python-dotenv
-click
 typer
 
 # Database & Storage
 pymongo
-motor
-boto3
-botocore
-s3transfer
 s5cmd
 
 # AI & LLM (Google & LangChain)
@@ -36,8 +31,6 @@ langsmith
 
 # gRPC & Protobuf (UNPINNED TO FIX CONFLICTS)
 grpcio
-grpcio-status
-proto-plus
 protobuf
 
 # Data Processing (UNPINNED FOR PYTHON 3.14 COMPATIBILITY)
@@ -53,65 +46,7 @@ tzdata
 requests
 httpx
 httpcore
-h11
 dnspython
-email-validator
-annotated-types
-anyio
-cachetools
-certifi
-charset-normalizer
-idna
-jmespath
-jq
-jsonpatch
-jsonpointer
-librt
-rich
-six
-sniffio
-tenacity
-tqdm
-uritemplate
-urllib3
-uuid_utils
-watchfiles
-websockets
-xxhash
-zstandard
 
-# Security & Auth
-bcrypt
-cryptography
-ecdsa
-passlib
-PyJWT
-python-jose
-requests-oauthlib
-oauthlib
-rsa
 
-# Formatting & Linting
-black
-flake8
-isort
-mypy
-mypy_extensions
-pycodestyle
-pycparser
-pyflakes
-Pygments
-typing-inspection
-typing_extensions
-filetype
-markdown-it-py
-mdurl
-pathspec
-platformdirs
-pluggy
-pytest
-shellingham
-requests-toolbelt
-iniconfig
-distro
-packaging
+
