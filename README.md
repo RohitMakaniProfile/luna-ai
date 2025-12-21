@@ -1,48 +1,44 @@
-Luna AI: Cosmic Companion
-=========================
+# 🌙 Luna AI: Cosmic Companion
 
 ### _A High-Performance Full-Stack AI Ecosystem_
 
-**Luna AI** is a sophisticated, context-aware AI chatbot built to provide a seamless human-like interaction experience. Developed in just 4 days (Dec 16–20), this project demonstrates a robust integration of modern web technologies and cloud infrastructure.
+**Luna AI** is a sophisticated, context-aware AI chatbot designed to deliver seamless, human-like conversations.  
+Built in **just 4 days (Dec 16–20)**, this project demonstrates strong full-stack engineering, cloud deployment expertise, and production-ready AI integration.
 
- Live Production Environment
-------------------------------
+---
 
-*   **Deployment URL:** [http://34.180.25.231/](http://34.180.25.231/)
-    
-*   **Status:**  Fully Operational
-    
-*   **Host:** Google Cloud Platform (GCP) Compute Engine
-    
+## 🚀 Live Production Environment
 
-🛠 Tech Stack
--------------
+- **Deployment URL:** http://34.180.25.231/
+- **Status:** ✅ Fully Operational
+- **Hosting Platform:** Google Cloud Platform (GCP) – Compute Engine
+- **Operating System:** Ubuntu 25.10
 
-Component,Technology,Description
-Frontend,React.js,"Modern, responsive dark-themed UI"
-Backend,FastAPI (Python),High-speed asynchronous API management
-AI Engine,Deep Learning / LLM,Advanced NLP processing and context management
-Web Server,Nginx,Reverse proxy for efficient traffic routing
-Infrastructure,GCP,Scalable cloud VM running Ubuntu 25.10
+---
 
-🏗 System Architecture
-----------------------
+## 🛠️ Tech Stack
 
-The project follows a **Three-Tier Architecture** to ensure security, speed, and 99.9% uptime.
+| Component        | Technology             | Description |
+|------------------|------------------------|-------------|
+| Frontend         | React.js               | Modern, responsive dark-themed UI |
+| Backend          | FastAPI (Python)       | High-performance asynchronous API |
+| AI Engine        | Deep Learning / LLM    | Context-aware NLP inference |
+| Web Server       | Nginx                  | Reverse proxy & static content server |
+| Infrastructure  | Google Cloud Platform  | Scalable Ubuntu VM deployment |
 
+---
+
+## 🏗️ System Architecture
+
+Luna AI follows a **Three-Tier Architecture** designed for performance, scalability, and security.
+
+```mermaid
 graph LR
-    User((User)) -->|HTTP Port 80| Nginx[Nginx Reverse Proxy]
+    User((User)) -->|HTTP :80| Nginx[Nginx Reverse Proxy]
     Nginx -->|Serves Static Files| React[React.js Frontend]
     Nginx -->|Proxies /api| FastAPI[FastAPI Backend :8000]
-    FastAPI -->|Processes| AI[AI & Logic Engine]
-
-### **Core Components:**
-
-*   **Nginx Reverse Proxy:** Acts as the primary entry point, handling SSL/HTTP traffic and routing /api requests to the backend while serving frontend static files.
-    
-*   **AI Inference Layer:** A dedicated pipeline that handles Prompt Engineering and maintains Chat History for contextual accuracy.
-    
-
+    FastAPI -->|Inference| AI[AI Logic Engine]
+```
 🧠 AI Logic Flow
 ----------------
 
