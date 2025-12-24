@@ -12,7 +12,8 @@ from app.core.database import conversations_collection, visual_memory_collection
 from app.core.personality import LUNA_SYSTEM_PROMPT
 from app.core.rag import luna_rag
 from app.core.photoengine import select_companion_photo 
-# Note: Ensure file is named photo_engine.py, not photoengine
+# Note: Ensure you have updated generation.py with build_enhanced_prompt function
+from app.routers.generation import build_enhanced_prompt
 
 # --- 1. DEFINE STATE ---
 class AgentState(TypedDict):
@@ -29,7 +30,7 @@ class AgentState(TypedDict):
 
 # --- 2. SETUP LLM ---
 llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash", # ✅ Changed to stable model (2.0-exp might cause errors)
+    model="gemini-2.5-flash", 
     google_api_key=os.getenv("GEMINI_API_KEY"),
     temperature=0.7,
     max_retries=3,
@@ -41,7 +42,6 @@ async def node_retrieve_context(state: AgentState):
     print(f"--- 🧠 NODE: RETRIEVING CONTEXT FOR {state['user_id']} ---")
     user_id = state['user_id']
     
-    # 👇 FIX 1: Removed 'await' and '.to_list()'
     # Local DB returns a list directly
     history_cursor = conversations_collection.find({"user_id": user_id}).sort("timestamp", 1).limit(10)
     history_docs = list(history_cursor) 
@@ -58,32 +58,65 @@ async def node_retrieve_context(state: AgentState):
 
     return {"context_summary": context_str, "chat_history": history_docs}
 
+# ... (Baki imports same rahenge)
+
 async def node_analyze_intent(state: AgentState):
-    print("--- 🕵️ NODE: ANALYZING INTENT & SUBJECT ---")
+    print("--- 🕵️ NODE: ANALYZING INTENT WITH CONTEXT ---")
+    
+    # 1. Get the last thing Luna said (Context)
+    last_ai_msg = "None"
+    if state.get('chat_history'):
+        # History me se last AI message dhundo
+        for msg in reversed(state['chat_history']):
+            if msg.get('role') == 'assistant':
+                last_ai_msg = msg.get('content')
+                break
+    
+    print(f"🤖 Last AI Message was: {last_ai_msg}")
+
     try:
+        # 👇 NEW PROMPT: Context Aware
         prompt = PromptTemplate.from_template(
-            "Analyze this message: '{message}'. "
-            "1. Does the user want a photo/image? "
-            "2. If YES, what is the main VISUAL SUBJECT? (Extract 1-2 words only, e.g., 'girl', 'coffee cup', 'rainy city'). "
-            "Return JSON: {{'intent': 'photo' or 'chat', 'mood': 'neutral/happy/sad', 'subject': '...'}}"
+            "Analyze user message: '{message}'.\n"
+            "Context - Last thing You (AI) said: '{last_ai_msg}'.\n"
+            
+            "TASK: Determine INTENT and VISUAL SUBJECT.\n"
+            
+            "1. IF user asks for a photo WITHOUT a specific subject (e.g., 'send photo', 'dikhao'):"
+            "   - Look at '{last_ai_msg}'. What were you doing?"
+            "   - If you said 'Working', subject = 'Indian girl working on laptop'."
+            "   - If you said 'Eating', subject = 'Indian girl eating food'."
+            "   - If context is generic, subject = 'Indian girl selfie smiling'."
+            
+            "2. IF user asks for a SPECIFIC photo (e.g., 'show me a cat'):"
+            "   - Subject = 'cat'.\n"
+            
+            "3. GRAMMAR RULES:"
+            "   - 'Dikhau' (I show) -> intent: 'chat'"
+            "   - 'Dikhao' (You show) -> intent: 'photo'"
+            
+            "Return JSON: {{'intent': 'photo' or 'chat', 'mood': 'neutral', 'subject': '...'}}"
         )
+        
         chain = prompt | llm
-        response = await chain.ainvoke({"message": state['user_message']})
+        response = await chain.ainvoke({
+            "message": state['user_message'],
+            "last_ai_msg": last_ai_msg  # 👈 Passing context here
+        })
+        
         import json
         txt = response.content.replace("```json", "").replace("```", "")
         result = json.loads(txt)
         
-        subject = result.get("subject") or state['user_message']
-        
         return {
             "intent": result.get("intent", "chat"),
             "mood": result.get("mood", "neutral"),
-            "photo_subject": subject
+            "photo_subject": result.get("subject")
         }
     except Exception as e:
         print(f"⚠️ Intent Error: {e}")
         return {"intent": "chat", "mood": "neutral", "photo_subject": None}
-
+# ... (Baki saara code same rahega)
 async def node_select_photo(state: AgentState):
     print("--- 📸 NODE: SELECTING PHOTO ---")
     user_id = state['user_id']
@@ -92,13 +125,18 @@ async def node_select_photo(state: AgentState):
     print(f"🔍 Searching for: '{query}'")
 
     try:
-        # Try to retrieve from personal memories first (RAG might still be async)
+        # 1. Try to retrieve from personal memories (old photos)
         personal_photo = await luna_rag.retrieve_image(user_id, query)
         if personal_photo:
-            return {"photo_url": personal_photo, "final_response": "I found this memory! 📸"}
+            return {"photo_url": personal_photo, "final_response": "Found this memory for you! 📸"}
 
-        # Generate/select a companion photo
-        photo_data = await select_companion_photo(state.get("mood", "happy"), query)
+        # 2. If no memory, GENERATE NEW REALISTIC PHOTO
+        # ✨ NEW: Use build_enhanced_prompt to get the Sony A7R Style prompt
+        enhanced_prompt = build_enhanced_prompt(query)
+        print(f"✨ Enhanced Prompt for Engine: {enhanced_prompt}")
+        
+        photo_data = await select_companion_photo(state.get("mood", "happy"), enhanced_prompt)
+        
         return {"photo_url": photo_data["url"], "final_response": photo_data["caption"]}
     except Exception as e:
         print(f"Photo Error: {e}")
@@ -137,7 +175,6 @@ async def node_save_interaction(state: AgentState):
     user_id = state['user_id']
     timestamp = datetime.datetime.utcnow()
 
-    # 👇 FIX 2: Removed 'await' here because Local DB is Sync
     conversations_collection.insert_one({
         "user_id": user_id, 
         "role": "user",
