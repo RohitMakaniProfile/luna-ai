@@ -3,9 +3,8 @@ import axios from "axios";
 import "./App.css";
 
 // Backend URL load karein
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || "http://127.0.0.1:8000";
-const API = `${BACKEND_URL}/api`;
-
+const API = "/api"; 
+const BACKEND_URL = window.location.origin;
 // 👇 HELPER: Image URL ko sahi format me badalne ke liye
 const getFullImageUrl = (url) => {
   if (!url) return null;
