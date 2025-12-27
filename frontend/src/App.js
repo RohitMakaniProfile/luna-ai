@@ -121,9 +121,18 @@ function App() {
     if (!inputMessage.trim() && !selectedImage) return;
 
     const userMessage = inputMessage;
+    // 👇 यहाँ हमने करंट इमेज प्रीव्यू को सेव कर लिया ताकि इसे चैट में दिखा सकें
+    const currentImageForChat = imagePreview; 
+    
     setInputMessage("");
     
-    setMessages(prev => [...prev, { role: "user", content: userMessage }]);
+    // 👇 अब यूजर के मैसेज के साथ फोटो भी स्टेट में जाएगी
+    setMessages(prev => [...prev, { 
+      role: "user", 
+      content: userMessage,
+      photo: currentImageForChat // यह चैट में थंबनेल दिखाएगा
+    }]);
+    
     setIsLoading(true);
 
     try {
@@ -139,6 +148,9 @@ function App() {
         });
 
         imageAnalysisData = visionResponse.data.analysis;
+        
+        // हमने यहाँ प्रीव्यू को अभी क्लियर नहीं किया है, 
+        // ताकि वो चैट लिस्ट में रेंडर हो सके।
         setSelectedImage(null);
         setImagePreview(null);
       }
