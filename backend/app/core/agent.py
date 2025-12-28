@@ -61,58 +61,74 @@ async def node_retrieve_context(state: AgentState):
 # ... (Baki imports same rahenge)
 
 async def node_analyze_intent(state: AgentState):
-    print("--- 🕵️ NODE: ANALYZING INTENT WITH CONTEXT ---")
+    print("--- 🕵️ NODE: ANALYZING INTENT (STRICT MODE) ---")
     
-    # 1. Get the last thing Luna said (Context)
+    # 1. पिछला मैसेज (Context) प्राप्त करना
     last_ai_msg = "None"
     if state.get('chat_history'):
-        # History me se last AI message dhundo
         for msg in reversed(state['chat_history']):
             if msg.get('role') == 'assistant':
                 last_ai_msg = msg.get('content')
                 break
     
-    print(f"🤖 Last AI Message was: {last_ai_msg}")
+    user_msg = state.get('user_message', "").lower()
+    print(f"🤖 Context: {last_ai_msg[:50]}...")
+
+    # 🛑 LAYER 1: HARD-CODED SAFETY CHECK (User's own photo refusal)
+    # अगर यूजर 'meri', 'mera', 'my' बोल रहा है, तो AI को सोचने की ज़रूरत ही नहीं, सीधा CHAT करो।
+    if any(word in user_msg for word in ["meri photo", "mera pic", "mera photo", "my photo", "my pic"]):
+        print("🚫 Safety Trigger: User asking for their own photo. Blocking generation.")
+        return {
+            "intent": "chat",
+            "mood": "neutral",
+            "photo_subject": None
+        }
 
     try:
-        # 👇 NEW PROMPT: Context Aware
-        prompt = PromptTemplate.from_template(
-            "Analyze user message: '{message}'.\n"
-            "Context - Last thing You (AI) said: '{last_ai_msg}'.\n"
-            
-            "TASK: Determine INTENT and VISUAL SUBJECT.\n"
-            
-            "1. IF user asks for a photo WITHOUT a specific subject (e.g., 'send photo', 'dikhao'):"
-            "   - Look at '{last_ai_msg}'. What were you doing?"
-            "   - If you said 'Working', subject = 'Indian girl working on laptop'."
-            "   - If you said 'Eating', subject = 'Indian girl eating food'."
-            "   - If context is generic, subject = 'Indian girl selfie smiling'."
-            
-            "2. IF user asks for a SPECIFIC photo (e.g., 'show me a cat'):"
-            "   - Subject = 'cat'.\n"
-            
-            "3. GRAMMAR RULES:"
-            "   - 'Dikhau' (I show) -> intent: 'chat'"
-            "   - 'Dikhao' (You show) -> intent: 'photo'"
-            
-            "Return JSON: {{'intent': 'photo' or 'chat', 'mood': 'neutral', 'subject': '...'}}"
-        )
+        # 🧠 LAYER 2: AI INTENT ANALYSIS
+        prompt = PromptTemplate.from_template("""
+        User Message: '{message}'
+        Last AI Response: '{last_ai_msg}'
+        
+        TASK: Classify intent into 'photo' or 'chat'.
+        
+        RULES:
+        1. IF user asks for LUNA'S photo or general things (e.g., 'photo bhejo', 'dikhao', 'send pic'): 
+           - intent: 'photo'.
+           - Use 'Last AI Response' for subject. (If Luna was working -> 'girl working', if eating -> 'girl eating').
+        2. IF user asks for THEIR OWN photo (e.g., 'meri photo'): 
+           - intent: 'chat' (STRICTLY FORBIDDEN to send photo).
+        3. GRAMMAR CHECK:
+           - 'Dikhau' (User wants to show something) -> intent: 'chat'.
+           - 'Dikhao' (User wants Luna to show something) -> intent: 'photo'.
+        
+        Return ONLY valid JSON: {{"intent": "photo" or "chat", "mood": "happy", "subject": "..."}}
+        """)
         
         chain = prompt | llm
         response = await chain.ainvoke({
-            "message": state['user_message'],
-            "last_ai_msg": last_ai_msg  # 👈 Passing context here
+            "message": user_msg,
+            "last_ai_msg": last_ai_msg
         })
         
-        import json
-        txt = response.content.replace("```json", "").replace("```", "")
-        result = json.loads(txt)
-        
+        # JSON साफ़ करने के लिए Regex का उपयोग (ज़्यादा सुरक्षित तरीका)
+        match = re.search(r'\{.*\}', response.content, re.DOTALL)
+        if match:
+            result = json.loads(match.group(0))
+        else:
+            raise ValueError("No JSON found")
+
+        # फाइनल सिक्योरिटी चेक (Intent: 'photo' होने पर भी)
+        final_intent = result.get("intent", "chat")
+        if "meri" in user_msg or "mera" in user_msg:
+             final_intent = "chat"
+
         return {
-            "intent": result.get("intent", "chat"),
+            "intent": final_intent,
             "mood": result.get("mood", "neutral"),
             "photo_subject": result.get("subject")
         }
+
     except Exception as e:
         print(f"⚠️ Intent Error: {e}")
         return {"intent": "chat", "mood": "neutral", "photo_subject": None}
